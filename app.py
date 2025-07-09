@@ -184,7 +184,6 @@ app.layout = html.Div([
     Input('vehicle-data-interval', 'n_intervals')
 )
 def fetch_vehicle_data(n_intervals):
-    print("called")
     data = get_latest_vehicle_data()
     if data is not None:
         return data
