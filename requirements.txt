@@ -1,0 +1,7 @@
+dash
+plotly>=7.1.0
+requests
+polyline
+psycopg[binary]
+httpx
+python-dotenv
